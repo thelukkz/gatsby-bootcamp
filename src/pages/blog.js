@@ -1,18 +1,17 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Header from '../components/header'
 import Footer from '../components/footer'
 
-const IndexPage = () => {
-    return(
+const BlogPage = () => {
+    return (
         <div>
             <Header />
-            <h1>Hello.</h1>
-            <h2>This is gatsby bootcamp.</h2>
+            <h1>Blog</h1>
+            <p>Posts will show up here...</p>
             <Footer />
         </div>
     )
 }
 
-export default IndexPage
+export default BlogPage

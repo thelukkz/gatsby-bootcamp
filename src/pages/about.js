@@ -4,15 +4,16 @@ import { Link } from 'gatsby'
 import Header from '../components/header'
 import Footer from '../components/footer'
 
-const IndexPage = () => {
-    return(
+const AboutPage = () => {
+    return (
         <div>
             <Header />
-            <h1>Hello.</h1>
-            <h2>This is gatsby bootcamp.</h2>
+            <h1>About</h1>
+            <p>Bio will show up here...</p>
+            <p>Link to <Link to="/contact">Contact page</Link></p>
             <Footer />
         </div>
     )
 }
 
-export default IndexPage
+export default AboutPage
